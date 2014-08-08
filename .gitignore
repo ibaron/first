@@ -2,6 +2,12 @@
 Thumbs.db
 ehthumbs.db
 
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
 # Folder config file
 Desktop.ini
 
